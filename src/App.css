@@ -60,6 +60,12 @@ a:active {
   width: 75%;
 }
 
+.loginContainer .title {
+  color: #95a3a4;
+  font-size: 14pt;
+  margin-bottom: 10px;
+}
+
 .disclaimer {
   color: #b7d0d9;
   width: 70vw;
@@ -69,6 +75,39 @@ a:active {
   margin-right: auto;
   margin-top: 10px;
   text-align: center;
+}
+
+.createAccountUsername {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.flexLeftMargin {
+  width: 10%;
+}
+
+.createAccountUsername input {
+  width: 65%;
+}
+
+.verifyUsernameStatusContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 2%;
+  width: 8%;
+  font-size: 6vw;
+}
+
+.fa-check-circle {
+  color: #478f40;
+}
+
+.fa-times-circle {
+  color: #df5858;
 }
 
 .loginContainer .loaderContainer {
@@ -108,6 +147,11 @@ button {
   padding: 10px 15px;
   font-size: 12pt;
   border-radius: 6pt;
+}
+
+button.disabled {
+  background-color: #aabbbc;
+  color: #bbcccd;
 }
 
 button.login {
